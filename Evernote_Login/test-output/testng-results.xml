@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-30T03:06:55 EET" name="Default suite" finished-at="2021-06-30T03:07:45 EET" duration-ms="49074">
+    <groups>
+    </groups>
+    <test started-at="2021-06-30T03:06:55 EET" name="Default test" finished-at="2021-06-30T03:07:45 EET" duration-ms="49074">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.LoginPageTest@3541cb24]" started-at="2021-06-30T03:06:48 EET" name="startDriver" finished-at="2021-06-30T03:06:55 EET" duration-ms="7227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserLoginSuccessfully()[pri:1, instance:tests.LoginPageTest@3541cb24]" started-at="2021-06-30T03:06:56 EET" name="UserLoginSuccessfully" finished-at="2021-06-30T03:07:32 EET" duration-ms="36073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLoginSuccessfully -->
+        <test-method signature="UserLoginUnsuccessfully()[pri:2, instance:tests.LoginPageTest@3541cb24]" started-at="2021-06-30T03:07:32 EET" name="UserLoginUnsuccessfully" finished-at="2021-06-30T03:07:45 EET" duration-ms="12935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLoginUnsuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LoginPageTest@3541cb24]" started-at="2021-06-30T03:07:45 EET" name="stopDriver" finished-at="2021-06-30T03:07:46 EET" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
